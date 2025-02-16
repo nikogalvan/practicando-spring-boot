@@ -12,6 +12,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+//VALIDAR ENTITY
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -24,6 +25,7 @@ public class Product {
   private String name;
   private String description;
 
+  private Double price;
   @Temporal(TemporalType.TIMESTAMP)
   private Timestamp createdAt;
 
